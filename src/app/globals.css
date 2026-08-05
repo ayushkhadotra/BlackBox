@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Font stacks use system fonts by default so the project builds with zero
+  network access. To use real webfonts (Inter + JetBrains Mono), uncomment
+  the next/font/google import in src/app/layout.tsx and this build will pick
+  them up automatically via the --font-body / --font-mono CSS variables.
+*/
+:root {
+  --font-display: -apple-system, "Segoe UI", "Inter", sans-serif;
+  --font-body: -apple-system, "Segoe UI", "Inter", sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", ui-monospace, monospace;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #08090b;
+  color: #f3f4f6;
+}
+
+::selection {
+  background-color: rgba(94, 119, 255, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f12;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2e37;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3f4b;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

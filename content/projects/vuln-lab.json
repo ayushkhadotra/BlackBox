@@ -1,0 +1,22 @@
+{
+  "slug": "vuln-lab",
+  "title": "Vuln Lab",
+  "category": "Labs",
+  "status": "archived",
+  "summary": "A self-hosted vulnerable-by-design lab environment for practicing exploit development in isolation.",
+  "description": "A set of Docker Compose stacks reproducing common CVEs (deserialization bugs, SSRF, IDOR chains) for hands-on practice, with a small CTF-style scoring server on top.",
+  "languages": ["Python", "PHP"],
+  "tech": ["Docker Compose", "Flask"],
+  "cover": "gradient-purple",
+  "github": "https://github.com/example/vuln-lab",
+  "demo": "",
+  "docs": "",
+  "timeline": [
+    { "date": "2024-06", "label": "First 5 vulnerable services" },
+    { "date": "2024-10", "label": "Added scoring server" }
+  ],
+  "challenges": "Making the vulnerabilities realistic without accidentally shipping something exploitable outside the sandbox.",
+  "lessons": "Writing the exploit before writing the fix produces much better detection rules later.",
+  "gallery": ["gradient-purple"],
+  "featured": false
+}

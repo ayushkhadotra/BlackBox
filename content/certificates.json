@@ -1,0 +1,6 @@
+[
+  { "id": "c1", "name": "Cisco CyberOps Associate", "issuer": "Cisco", "date": "2024-11", "category": "Cybersecurity", "image": "gradient-blue", "url": "" },
+  { "id": "c2", "name": "CompTIA Security+", "issuer": "CompTIA", "date": "2024-02", "category": "Cybersecurity", "image": "gradient-red", "url": "" },
+  { "id": "c3", "name": "TryHackMe — SOC Level 1", "issuer": "TryHackMe", "date": "2025-09", "category": "Cybersecurity", "image": "gradient-green", "url": "" },
+  { "id": "c4", "name": "Python for Security Professionals", "issuer": "Self-paced", "date": "2023-12", "category": "Development", "image": "gradient-purple", "url": "" }
+]

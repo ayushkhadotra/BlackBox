@@ -1,0 +1,10 @@
+[
+  { "id": "t1", "date": "2023-08", "type": "milestone", "title": "Started SOC Analyst role", "detail": "Joined a managed detection & response team as a tier-1 analyst." },
+  { "id": "t2", "date": "2024-02", "type": "certificate", "title": "CompTIA Security+", "detail": "Foundational certification in security operations." },
+  { "id": "t3", "date": "2024-06", "type": "project", "title": "Shipped Vuln Lab", "detail": "Released a self-hosted vulnerable-by-design training environment." },
+  { "id": "t4", "date": "2024-11", "type": "certificate", "title": "Cisco CyberOps Associate", "detail": "Certified in SOC monitoring, analysis, and response." },
+  { "id": "t5", "date": "2025-01", "type": "milestone", "title": "Promoted to Detection Engineer", "detail": "Moved from alert triage into writing and tuning detection logic." },
+  { "id": "t6", "date": "2025-04", "type": "project", "title": "Piloted Triage Copilot", "detail": "Internal alert-enrichment tool adopted by the SOC team." },
+  { "id": "t7", "date": "2025-09", "type": "certificate", "title": "TryHackMe Top 1% — SOC Level 1 Path", "detail": "Completed the full SOC Level 1 learning path." },
+  { "id": "t8", "date": "2025-11", "type": "project", "title": "Sentinel Trap crosses 10k IOCs", "detail": "Honeypot network reached a significant detection milestone." }
+]

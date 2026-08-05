@@ -1,0 +1,21 @@
+{
+  "slug": "recon-cli",
+  "title": "recon-cli",
+  "category": "Scripts",
+  "status": "active",
+  "summary": "A single-binary recon tool that chains subdomain enumeration, port scanning, and screenshotting.",
+  "description": "recon-cli wraps subfinder, naabu, and gowitness behind one command with sane defaults, writing a single markdown report per target for fast manual review.",
+  "languages": ["Go"],
+  "tech": ["Go", "Cobra"],
+  "cover": "gradient-green",
+  "github": "https://github.com/example/recon-cli",
+  "demo": "",
+  "docs": "",
+  "timeline": [
+    { "date": "2025-03", "label": "v1.0 released" }
+  ],
+  "challenges": "Getting consistent output across three underlying tools with different flag conventions.",
+  "lessons": "A boring, predictable CLI beats a clever one every time you're using it at 2am.",
+  "gallery": ["gradient-green"],
+  "featured": false
+}

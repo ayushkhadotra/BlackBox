@@ -1,0 +1,23 @@
+{
+  "slug": "soc-triage-copilot",
+  "title": "Triage Copilot",
+  "category": "Development",
+  "status": "active",
+  "summary": "An internal tool that enriches SOC alerts with threat intel context before an analyst even opens the ticket.",
+  "description": "Triage Copilot listens to a SIEM webhook, enriches each alert with WHOIS, VirusTotal, and internal asset-criticality data, then writes a scored summary back into the ticket. It cut median time-to-first-action for tier-1 alerts significantly during a three month pilot.",
+  "languages": ["TypeScript", "Python"],
+  "tech": ["Next.js", "FastAPI", "PostgreSQL", "Redis"],
+  "cover": "gradient-blue",
+  "github": "https://github.com/example/triage-copilot",
+  "demo": "",
+  "docs": "",
+  "timeline": [
+    { "date": "2025-01", "label": "Prototype scoring model" },
+    { "date": "2025-04", "label": "Piloted with SOC tier-1 team" },
+    { "date": "2025-09", "label": "Rolled out org-wide" }
+  ],
+  "challenges": "Balancing enrichment speed against third-party API rate limits meant building an aggressive local cache layer.",
+  "lessons": "Analysts trusted the tool more once it showed its reasoning, not just a score.",
+  "gallery": ["gradient-blue", "gradient-blue-2"],
+  "featured": true
+}
